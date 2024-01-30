@@ -11,7 +11,7 @@ class List:
    def __neg__(self):
       self._elements.pop(0)
       return self
-         
+
    def __eq__(self, other):
       if isinstance(other, List):
          return self._elements == other._elements
